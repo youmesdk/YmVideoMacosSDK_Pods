@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "include/*.{h,m,mm}"
   spec.public_header_files = "include/*.{h}"
-  spec.vendored_libraries ="lib/**/*.{dylib}"
+  spec.vendored_frameworks ="lib/**/*.dylib"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
 
 
